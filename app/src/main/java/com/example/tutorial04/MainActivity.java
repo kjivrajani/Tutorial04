@@ -48,11 +48,6 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "user name must be Preper email Address", Toast.LENGTH_SHORT).show();
         }
 
-
-
-
-
-
         if (Valueusername.equals("kjivrajani728@rku.ac.in") && Valuepassword.equals("123456"))
         {
             Intent intent = new Intent(MainActivity.this,login.class);
